@@ -91,6 +91,16 @@ This challenge uses only SQL queries. Please submit answers in a markdown file.
    due to unforced errors. In a match, you have fields for number of
    points won by each player, and number of unforced errors for each
    field.)
+   *Basing unforced error percentage on (Double Faults + Unforced Errors) / (Net Points of Opponent)
+   Rafael Nadal - 22.64%
+   Novak Djokovic - 24.23%
+   Stanislas Wawrinka - 25.90%
+   
+   Serena Williams - 44.83%
+   Victoria Azarenka - 45.33%
+   Tied for 3rd Highest:
+   -Agnieszka Radwanska - 29.38%
+   -Maria Sharapova - 59.97%
 
 
 *Hint:* `SUM(double_faults)` sums the contents of an entire column. For each row, to add the field values from two columns, the syntax `SELECT name, double_faults + unforced_errors` can be used.
